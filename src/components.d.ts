@@ -14,6 +14,8 @@ declare module 'vue' {
     AppBody: typeof import('./components/AppBody.vue')['default']
     AppFooter: typeof import('./components/AppFooter.vue')['default']
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
+    Main_meno: typeof import('./components/main_menu.vue')['default']
+    Main_menu: typeof import('./components/main_menu.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
